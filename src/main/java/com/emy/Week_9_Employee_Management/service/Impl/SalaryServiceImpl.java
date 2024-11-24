@@ -64,4 +64,5 @@ public class SalaryServiceImpl implements SalaryService {
         return ResponseEntity.status(HttpStatus.OK)
                 .body(new ApiResponse<>("Salary records retrieved successfully", responses));
     }
+
 }

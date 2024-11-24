@@ -11,7 +11,6 @@ import java.util.List;
 
 public interface AttendanceService {
 
-//    AttendanceResponse registerAttendance (AttendanceRequest request);
     ResponseEntity<ApiResponse<AttendanceResponse>> addAttendance(AttendanceRequest request);
 
     ResponseEntity<ApiResponse<List<AttendanceResponse>>> getAttendanceByEmployeeId(Long employeeId);

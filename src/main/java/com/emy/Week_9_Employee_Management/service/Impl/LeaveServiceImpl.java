@@ -34,7 +34,6 @@ public class LeaveServiceImpl implements LeaveService {
                 .leaveType(request.getLeaveType())
                 .startDate(request.getStartDate())
                 .endDate(request.getEndDate())
-//                .reason(request.getReason())
                 .employee(employee)
                 .build();
 
@@ -44,7 +43,6 @@ public class LeaveServiceImpl implements LeaveService {
                 .leaveType(request.getLeaveType())
                 .startDate(request.getStartDate())
                 .endDate(request.getEndDate())
-//                .reason(request.getReason())
                 .build();
 
         return ResponseEntity.status(HttpStatus.CREATED)
@@ -60,7 +58,6 @@ public class LeaveServiceImpl implements LeaveService {
                         .leaveType(leave.getLeaveType())
                         .startDate(leave.getStartDate())
                         .endDate(leave.getEndDate())
-//                        .reason(leave.getReason())
                         .build())
                 .collect(Collectors.toList());
 

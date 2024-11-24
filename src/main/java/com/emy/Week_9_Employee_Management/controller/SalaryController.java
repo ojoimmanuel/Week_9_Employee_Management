@@ -26,4 +26,5 @@ public class SalaryController {
     public ResponseEntity<ApiResponse<List<SalaryResponse>>> getSalaryByEmployeeId(@PathVariable Long employeeId) {
         return salaryService.getSalaryByEmployeeId(employeeId);
     }
+
 }

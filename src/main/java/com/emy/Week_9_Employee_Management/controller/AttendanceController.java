@@ -3,7 +3,6 @@ package com.emy.Week_9_Employee_Management.controller;
 import com.emy.Week_9_Employee_Management.payload.request.AttendanceRequest;
 import com.emy.Week_9_Employee_Management.payload.response.ApiResponse;
 import com.emy.Week_9_Employee_Management.payload.response.AttendanceResponse;
-import com.emy.Week_9_Employee_Management.payload.response.EmployeeResponse;
 import com.emy.Week_9_Employee_Management.service.AttendanceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

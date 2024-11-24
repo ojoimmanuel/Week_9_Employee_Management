@@ -12,4 +12,5 @@ public interface SalaryService {
     ResponseEntity<ApiResponse<SalaryResponse>> addSalary(SalaryRequest request);
 
     ResponseEntity<ApiResponse<List<SalaryResponse>>> getSalaryByEmployeeId(Long employeeId);
+
 }

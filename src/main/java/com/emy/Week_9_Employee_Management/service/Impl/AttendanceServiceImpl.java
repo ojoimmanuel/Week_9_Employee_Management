@@ -3,8 +3,6 @@ package com.emy.Week_9_Employee_Management.service.Impl;
 import com.emy.Week_9_Employee_Management.entity.Attendance;
 import com.emy.Week_9_Employee_Management.entity.Employee;
 import com.emy.Week_9_Employee_Management.payload.request.AttendanceRequest;
-import com.emy.Week_9_Employee_Management.payload.request.EmployeeRequest;
-
 import com.emy.Week_9_Employee_Management.payload.response.ApiResponse;
 import com.emy.Week_9_Employee_Management.payload.response.AttendanceResponse;
 import com.emy.Week_9_Employee_Management.repository.AttendanceRepository;
